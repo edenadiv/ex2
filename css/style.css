@@ -1,0 +1,342 @@
+/* init */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: #3E3F43;
+}
+
+article, aside, footer, header, main, nav, section {
+    display: block;
+}
+
+
+a {
+    text-decoration: none;
+    color: #3E3F43;
+}
+
+header, #primary, footer {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+.fit {
+    margin: auto;
+    width: 94%;
+} 
+
+/* init end */
+
+/* header */
+
+header {
+    height: 123px;
+    align-items: center;
+    display: flex;
+}
+
+#logo {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+
+#logo a{
+    padding-left:1vw;
+}
+
+.logo-container {
+    height: 10vh;
+}
+
+.logo-container a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.25em;
+}
+
+.logo-svg{
+    width: 30px;
+    height: 30px;
+    color: #DAA520;
+}
+
+/* header end*/
+
+/* primary section */
+
+.primary {
+    background-color: #F9BDBD;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 555px;
+}
+
+.primary img {
+    height: 70%;
+}
+
+.primary-notes {
+    position: absolute;
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    top: 290px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#yellow-rectangle {
+    display: block;
+    background-color: #F7DEA6;
+    aspect-ratio: 278/388;
+    height: 60%;
+    height: 400px;
+    z-index: 0;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+
+/* primary section end */
+
+/* about section */
+
+#about {
+    margin-top: 24px;
+}
+
+#about-content {
+    margin-top: 24px;
+}
+
+/* about section end */
+
+/* exercises section */
+
+#exercises{
+    margin-top: 83px;
+}
+
+.exercises-container {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 16vw;
+    display: flex;
+    aspect-ratio: 200/264; /* card size in figma */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.card-primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 7rem;
+}
+
+.card-imgs{
+    display: flex;
+    width: 6vw;
+    height: 4vh;
+}
+
+.card-imgs img{
+    width: 4vw;
+    height: 4vh;
+}
+
+.bg-color-1{
+    background-color: #FDEDE5;
+    ;
+}
+
+.bg-color-2{
+    background-color: #EBF1FF;
+}
+
+.bg-color-3{
+    background-color: #EBFFEC;
+}
+
+.bg-color-4{
+    background-color: #FFEBFC;
+}
+
+.bg-color-5{
+    background-color: #FFFEEB;
+}
+
+#btn-1:hover {
+    width: 9vw;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem;
+    color: #FDEDE5;
+    background-color: #3E3F43;
+}
+
+#btn-2:hover {
+    width: 9vw;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem;
+    color: #EBF1FF;
+    background-color: #3E3F43;
+}
+
+#btn-3:hover {
+    width: 9vw;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem;
+    color: #FDEDE5;
+    background-color: #3E3F43;
+}
+
+#btn-4:hover {
+    width: 9vw;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem;
+    color: #FFEBFC;
+    background-color: #3E3F43;
+}
+
+#btn-5:hover {
+    width: 9vw;
+    height: 4.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem;
+    color: #FFFEEB;
+    background-color: #3E3F43;
+}
+
+.btn {
+    width: 9vw;
+    height: 4.5vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem;
+}
+
+/* exercises section end */
+
+/* programming languages */
+
+#programming-languages {
+    margin-top: 80px;
+}
+
+#programming-languages-h2 {
+    margin-top: 24px;
+}
+
+#programming-languages-list {
+    margin-top: 24px;
+    margin-left: 25px;
+}
+
+/* programming languages end */
+
+/* your choice section */
+
+#your-choice {
+    margin-top: 40px;
+}
+
+#your-choice h4 {
+    margin-top: 10px;
+}
+
+#your-choice p {
+    margin-top: 16px;
+}
+
+#your-choice iframe {
+    margin-top: 20px;
+}
+
+#your-choice-content {
+    margin-top: 24px;
+    margin-bottom: 271px;
+    display: flex;
+}
+
+#nice-iframe {
+    width: 414px;
+    height: 896px;
+}
+
+#your-choice-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iframe-card {
+    border-radius: 2rem;
+}
+
+/* your choice section end */
+
+/* footer */
+
+footer {
+    background-color: #EFEFEF;
+}
+
+#footer-h4 {
+    margin-top: 62px;
+}
+
+.links {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.links a {
+    color: #8D8D8D;
+    margin-top: 16px;
+}
+
+#credits {
+    color: #8D8D8D;
+    margin-top: 70px;
+    padding-bottom: 51.5px;
+}
+
+/* footer end */
